@@ -1,0 +1,26 @@
+{
+  "posts": [{
+      "category":"123",
+      "id": 1,
+      "title": "json-server",
+      "author": "和锋",
+      "嘻嘻哈": "和锋1"
+    },
+    {
+
+      "category":"456",
+      "id": 2,
+      "title": "json-server",
+      "author": "和锋",
+      "嘻嘻哈": "和锋1"
+    }
+  ],
+  "comments": [{
+    "id": 1,
+    "title": "comments",
+    "author": "和锋"
+  }],
+  "profile": {
+    "name": "typicode"
+  }
+}

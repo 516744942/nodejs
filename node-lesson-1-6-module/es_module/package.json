@@ -1,0 +1,18 @@
+{
+  "name": "es_module",
+  "version": "1.0.0",
+  "description": "模块可以通过export关键词对外到处很多内容 这些到处的内容可以通过名字进行访问 下面的代码是es模块",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}

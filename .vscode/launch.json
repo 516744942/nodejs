@@ -1,0 +1,56 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "EventEmitter",
+      "program": "${workspaceFolder}/node-lesson-2-2-http/myEventEmitterServer.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "pwa-node"
+    },
+    {
+      "name": "middleware",
+      "program": "${workspaceFolder}/learn-4-1-http/middleware/app.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "pwa-node"
+    },
+    
+    {
+      "name": "Attach",
+      "port": 3003,
+      "request": "attach",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "pwa-node"
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "附加到进程",
+      "address": "localhost",
+      "port": 9229
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "附加到进程3",
+      "address": "localhost",
+      "port": 3003
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "启动程序",
+      "program": "${workspaceFolder}/node-lesson-2-1-koa/ko2/hellworld/bin/www"
+    }
+]
+}
